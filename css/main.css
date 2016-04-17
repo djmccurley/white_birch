@@ -289,13 +289,13 @@ ul.nav-links {
 }
 
     .feature-item a:link, .feature-item a:visited {
-        background-color: hsla(0, 0%, 95%, .75);
-        color: #012224;
+        background-color: hsla(180, 94%, 7%, .3);
+        color: #f2f2f2;
         transition: .15s ease all;
     }
 
     .feature-item a:hover, .feature-item a:focus {
-        background-color: hsla(180, 94%, 7%, .75);
+        background-color: hsla(180, 94%, 7%, .8);
         color: #f2f2f2;
         transition: .15s ease all;
     }
