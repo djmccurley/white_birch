@@ -374,11 +374,6 @@ ul.nav-links {
     cursor: pointer;
     }
 
-.amenities-grid i:hover {
-    background-color: #5A8F56;
-    transition: .15s ease all;
-}
-
 .amenities-grid i.on-click {
     background-color: #5A8F56;
     transition: .15s ease all;

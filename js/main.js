@@ -17,3 +17,23 @@ navButton1.addEventListener('click', function() {
     .classList
     .toggle('on-click');
 });
+
+var navButton2 = document.querySelector('.fa-fire');
+
+navButton2.addEventListener('click', function() {
+  console.log('amenity click!');
+  document
+    .querySelector('.fa-fire')
+    .classList
+    .toggle('on-click');
+});
+
+var navButton3 = document.querySelector('.fa-glass');
+
+navButton3.addEventListener('click', function() {
+  console.log('amenity click!');
+  document
+    .querySelector('.fa-glass')
+    .classList
+    .toggle('on-click');
+});
