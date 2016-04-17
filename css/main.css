@@ -195,20 +195,23 @@ ul.nav-links {
     top: 50%;
     transform: translateY(-50%);
     margin: 0;
-    font-size: 5.5em;
+    font-size: 5em;
     font-weight: normal;
     color: #f2f2f2;
-    font-family: 'Amatic SC', cursive, sans-serif;
     line-height: 1em;
 }
 
 /* body copy styles */
 
 .copy {
-    max-width: 800px;
-    margin: .5em auto;
     padding: 1em;
     color: #012224;
+    font-weight: 300;
+}
+
+.line-container {
+    max-width: 800px;
+    margin: .5em auto;
 }
 
 .copy h2 {
@@ -216,7 +219,7 @@ ul.nav-links {
 }
 
 .copy .bold {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .copy a {
@@ -228,7 +231,7 @@ ul.nav-links {
     text-decoration: none;
     color: #f2f2f2;
     border-radius: 12px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .copy a:link, .copy a:visited {
@@ -247,7 +250,7 @@ ul.nav-links {
 }
 
 .guest-name {
-    font-weight: 700;
+    font-weight: 500;
 }
 /* feature grid styles */
 
