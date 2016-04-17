@@ -7,3 +7,13 @@ navButton.addEventListener('click', function() {
     .classList
     .toggle('on-click');
 });
+
+var navButton1 = document.querySelector('.fa-coffee');
+
+navButton1.addEventListener('click', function() {
+  console.log('amenity click!');
+  document
+    .querySelector('.fa-coffee')
+    .classList
+    .toggle('on-click');
+});
