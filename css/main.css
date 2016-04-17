@@ -96,8 +96,12 @@ textarea {
    ========================================================================== */
 
 /* 
-Color palette courtesy of morgmj @ 
-http://www.colourlovers.com/palette/1297885/secret_forest
+Color palette
+dark blue: #0b518b;
+tree green: #304c2e;
+sky blue: #6fabdb;
+dark green: #012224;
+tan: #a46935;
 */
 
 
@@ -118,7 +122,7 @@ html {
 .fixed-nav {
     width: 100%;
     padding: .5em 1em;
-    background-color: #594433;
+    background-color: #a68c69;
     position: fixed;
     top: 0;
     left: 0;
@@ -146,6 +150,7 @@ html {
 
 .nav-menu a {
     font-size: 1.5em;
+
 }
 
 ul.nav-links {
@@ -153,7 +158,7 @@ ul.nav-links {
 }
 
 .nav-links li {
-    padding-bottom: .75em;
+    padding: .375em 0em;
 }
 
 
