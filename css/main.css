@@ -95,10 +95,66 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* 
+Color palette courtesy of morgmj @ 
+http://www.colourlovers.com/palette/1297885/secret_forest
+*/
 
 
+/* global styles */
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+/* border testing rule*/
+ * {border: 1px solid red;}
+
+/* header styles */
+
+.fixed-nav {
+    width: 100%;
+    padding: .5em 1em;
+    background-color: #594433;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.fixed-nav a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.fixed-nav h1 {
+    float: left;
+    width: 50%;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.nav-menu {
+    float: right;
+    text-align: right;
+    padding: 0;
+    line-height: 1.6em;
+}
+
+.nav-menu a {
+    font-size: 1.5em;
+}
+
+ul.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    padding-bottom: .75em;
+}
 
 
 
