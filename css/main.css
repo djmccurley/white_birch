@@ -267,10 +267,29 @@ ul.nav-links {
 
 /* booking app styles */
 
+.booking-app {
+    background-color: #012224;
+    color: #f2f2f2;
+    padding-bottom: 1.5em;
+}
+
+.booking-app a:link, .booking-app a:visited {
+   border-radius: 12px;
+    border: 3px solid #5A8F56;
+    transition: .15 ease all;
+}
+
+.booking-app a:hover, .booking-app a:focus {
+    background-color: ##5A8F56;
+    transition: .15 ease all;
+}
+
+
 .amenities-grid {
     background-color: #012224;
     margin-bottom: 1em;
     padding: 1em;
+    border-radius: 12px;
 }
 
 .amenities-grid ul {
