@@ -166,19 +166,38 @@ ul {
 
 .nav-menu a {
     font-size: 1.5em;
-
 }
+
+    .nav-menu a:link, .nav-menu a:visited {
+        color: #f2f2f2;
+        transition: .15s ease all;
+    }
+
+    .nav-menu a:hover, .nav-menu a:focus {
+        color: #5A8F56;
+        transition: .15s ease all;
+    }
 
 .menu-btn {
     display: block;
     padding-top: .1em;
 }
+
+
 ul.nav-links {
+    font-family: 'Arbutus Slab', Georgia, serif;
+    padding-left: 0;
     display: none;
 }
 
+
+
 .nav-links li {
     padding: .375em 0em;
+}
+
+.on-click .nav-links {
+    display: block;
 }
 
 /* banner styles */
@@ -258,6 +277,7 @@ ul.nav-links {
     position: relative;
     float: left;
     width: 50%;
+    border: thin solid #f2f2f2;
 }
 
 .feature-item a {
@@ -265,6 +285,42 @@ ul.nav-links {
     display: block;
     width: 100%;
     height: 100%;
+    text-decoration: none;
+}
+
+    .feature-item a:link, .feature-item a:visited {
+        background-color: hsla(0, 0%, 95%, .75);
+        color: #012224;
+        transition: .15s ease all;
+    }
+
+    .feature-item a:hover, .feature-item a:focus {
+        background-color: hsla(180, 94%, 7%, .75);
+        color: #f2f2f2;
+        transition: .15s ease all;
+    }
+
+.feature-item h3 {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.price-tag {
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 75%;
+    right: 0;
+    padding: .25em 1em;
+    background-color: #a46935;
+    color: #f2f2f2;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
 
 }
 
@@ -314,12 +370,18 @@ ul.nav-links {
     padding: .3em;
     border-radius: 12px;
     border: 3px solid #5A8F56;
+    transition: .15s ease all;
     }
+
 .amenities-grid i:hover {
     background-color: #5A8F56;
     transition: .15s ease all;
 }
 
+.amenities-grid i.on-click {
+    background-color: #5A8F56;
+    transition: .15s ease all;
+}
 /* map styles */
 
 .map iframe {
@@ -335,6 +397,10 @@ ul.nav-links {
     text-align: center;
     background-color: #012224;
     color: #f2f2f2;
+}
+
+.mailing-list span {
+    color: #012224;
 }
 
 .email-button {
