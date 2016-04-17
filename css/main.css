@@ -114,15 +114,32 @@ html {
   box-sizing: inherit;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arbutus Slab', Georgia, Serif;
+}
+
+ul {
+    list-style: none;
+}
 /* border testing rule*/
- /** {border: 1px solid red;}*/
+/** {border: 1px solid red;}*/
 
 /* header styles */
 
 .fixed-nav {
     width: 100%;
     padding: .5em 1em;
-    background-color: hsla(183, 95%, 7%, .95);
+    background-color: #012224;
     position: fixed;
     top: 0;
     left: 0;
@@ -130,16 +147,14 @@ html {
 }
 
 .fixed-nav a {
-    color: #f4f4f4;
+    color: #f2f2f2;
     text-decoration: none;
 }
 
 .fixed-nav h1 {
     float: left;
-    width: 50%;
     margin: 0;
     font-size: 1.5em;
-    font-family: 'Arbutus Slab', Georgia, Serif;
 }
 
 .nav-menu {
@@ -156,16 +171,134 @@ html {
 
 .menu-btn {
     display: block;
-    padding-top: .2em;
+    padding-top: .1em;
 }
 ul.nav-links {
-    list-style: none;
     display: none;
 }
 
 .nav-links li {
     padding: .375em 0em;
 }
+
+/* banner styles */
+
+.banner {
+    position: relative;
+    margin: 3em 0 0 0;
+}
+
+.banner h2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    font-size: 5.5em;
+    font-weight: normal;
+    color: #f2f2f2;
+    font-family: 'Amatic SC', cursive, sans-serif;
+    line-height: 1em;
+}
+
+/* body copy styles */
+
+.copy {
+    max-width: 800px;
+    margin: .5em auto;
+    padding: 1em;
+    color: #012224;
+}
+
+.copy h2 {
+    margin: 0;
+}
+
+.copy .bold {
+    font-weight: 700;
+}
+
+.copy a {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    color: #f2f2f2;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+.copy a:link, .copy a:visited {
+    background-color: #012224;
+    transition: .15s ease all;
+}
+
+.copy a:hover, .copy a:focus {
+    background-color: #5A8F56;
+    transition: .15s ease all;
+}
+
+.copy quote {
+    font-style: italic;
+    display: block;
+}
+
+.guest-name {
+    font-weight: 700;
+}
+/* feature grid styles */
+
+.feature-item {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.feature-item a {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+
+/* booking app styles */
+
+.amenities-grid {
+    background-color: #012224;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.amenities-grid ul {
+    padding: 0;
+    margin: 0;
+}
+
+.amenities-grid li {
+    display: block;
+    width: 20%;
+    float: left;
+    padding: .12em;
+    color: #f2f2f2;
+    font-size: 2em;
+    text-align: center;
+}
+
+.amenities-grid i {
+    display: block;
+    padding: .3em;
+    border-radius: 12px;
+    border: 3px solid #5A8F56;
+    }
+
+
+
+
+
 
 
 
