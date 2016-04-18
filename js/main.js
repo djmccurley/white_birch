@@ -8,102 +8,102 @@ navButton.addEventListener('click', function() {
     .toggle('on-click');
 });
 
-var navButton1 = document.querySelector('.fa-coffee');
+var navButton1 = document.querySelector('.coffee');
 
 navButton1.addEventListener('click', function() {
   console.log('amenity click!');
   document
-    .querySelector('.fa-coffee')
+    .querySelector('.coffee')
     .classList
     .toggle('on-click');
 });
 
-var navButton2 = document.querySelector('.fa-fire');
+var navButton2 = document.querySelector('.fire');
 
 navButton2.addEventListener('click', function() {
   console.log('amenity click!');
   document
-    .querySelector('.fa-fire')
+    .querySelector('.fire')
     .classList
     .toggle('on-click');
 });
 
-var navButton3 = document.querySelector('.fa-glass');
+var navButton3 = document.querySelector('.glass');
 
 navButton3.addEventListener('click', function() {
   console.log('amenity click!');
   document
-    .querySelector('.fa-glass')
+    .querySelector('.glass')
     .classList
     .toggle('on-click');
 });
 
-var navButton4 = document.querySelector('.fa-paw');
+var navButton4 = document.querySelector('.paw');
 
 navButton4.addEventListener('click', function() {
   console.log('amenity click!');
   document
-    .querySelector('.fa-paw')
+    .querySelector('.paw')
     .classList
     .toggle('on-click');
 });
 
-var navButton5 = document.querySelector('.fa-plug');
+var navButton5 = document.querySelector('.plug');
 
 navButton5.addEventListener('click', function() {
   console.log('amenity click!');
   document
-    .querySelector('.fa-plug')
+    .querySelector('.plug')
     .classList
     .toggle('on-click');
 });
 
-var navButton6 = document.querySelector('.fa-futbol-o');
+var navButton6 = document.querySelector('.futbol-o');
 
 navButton6.addEventListener('click', function() {
   console.log('amenity click!');
   document
-    .querySelector('.fa-futbol-o')
+    .querySelector('.futbol-o')
     .classList
     .toggle('on-click');
 });
 
-var navButton7 = document.querySelector('.fa-tree');
+var navButton7 = document.querySelector('.tree');
 
 navButton7.addEventListener('click', function() {
   console.log('amenity click!');
   document
-    .querySelector('.fa-tree')
+    .querySelector('.tree')
     .classList
     .toggle('on-click');
 });
 
-var navButton8 = document.querySelector('.fa-wheelchair');
+var navButton8 = document.querySelector('.wheelchair');
 
 navButton8.addEventListener('click', function() {
   console.log('amenity click!');
   document
-    .querySelector('.fa-wheelchair')
+    .querySelector('.wheelchair')
     .classList
     .toggle('on-click');
 });
 
-var navButton9 = document.querySelector('.fa-bicycle');
+var navButton9 = document.querySelector('.bicycle');
 
 navButton9.addEventListener('click', function() {
   console.log('amenity click!');
   document
-    .querySelector('.fa-bicycle')
+    .querySelector('.bicycle')
     .classList
     .toggle('on-click');
 });
 
-var navButton10 = document.querySelector('.fa-heart');
+var navButton10 = document.querySelector('.heart');
 
 navButton10.addEventListener('click', function() {
   console.log('amenity click!');
   document
-    .querySelector('.fa-heart')
+    .querySelector('.heart')
     .classList
     .toggle('on-click');
 });

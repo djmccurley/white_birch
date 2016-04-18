@@ -214,7 +214,7 @@ ul.nav-links {
     top: 50%;
     transform: translateY(-50%);
     margin: 0;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: normal;
     color: #f2f2f2;
     line-height: 1em;
@@ -317,7 +317,7 @@ ul.nav-links {
     margin: 0;
     top: 75%;
     right: 0;
-    padding: .25em 1em;
+    padding: .1em 1em;
     background-color: #a46935;
     color: #f2f2f2;
     border-top-left-radius: 12px;
