@@ -346,7 +346,7 @@ ul.nav-links {
 
 .amenities-grid {
     background-color: #012224;
-    margin-bottom: 1em;
+    margin-bottom: 1em auto;
     padding: 1em;
     border-radius: 12px;
 }
@@ -358,24 +358,20 @@ ul.nav-links {
 
 .amenities-grid li {
     display: block;
-    width: 20%;
     float: left;
-    padding: .12em;
+    width: 18%;
+    margin: 0 2% 2% 0;
+    padding: .1em;
     color: #f2f2f2;
     font-size: 2em;
     text-align: center;
-}
-
-.amenities-grid i {
-    display: block;
-    padding: .3em;
     border-radius: 12px;
     border: 3px solid #5A8F56;
     transition: .15s ease all;
     cursor: pointer;
-    }
+}
 
-.amenities-grid i.on-click {
+.amenities-grid li.on-click {
     background-color: #5A8F56;
     transition: .15s ease all;
 }
